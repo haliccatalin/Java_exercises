@@ -1,6 +1,6 @@
 package com.endava;
 
-public abstract class Person{
+public class Person{
   private String firstName;
   private String lastName;
   private String dateOfBirth;
@@ -23,7 +23,7 @@ public abstract class Person{
 
   @Override
   public String toString(){
-    return "nume de familie "+ this.firstName+"\n prenume " + this.lastName+ "\ndata nasterii "+this.dateOfBirth + "\n"+super.toString();
+    return "nume de familie "+ this.firstName+"\n prenume " + this.lastName+ "\ndata nasterii "+this.dateOfBirth + "\n";
   }
 
   
